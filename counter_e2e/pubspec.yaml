@@ -1,0 +1,23 @@
+name: counter_e2e
+description: Contains end-to-end tests validating the Counter application.
+version: 1.0.0
+
+publish_to: none
+
+environment:
+  sdk: '>=2.18.2 <3.0.0'
+
+dependencies:
+  counter:
+    path: ../counter
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  integration_test:
+    sdk: flutter
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
